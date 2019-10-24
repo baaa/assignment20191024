@@ -1,1 +1,5 @@
-# assignment20191024
+- api will be running on http://localhost:8889
+- a swagger interface is available on http://localhost:8889/docs which should help through the pain
+- completely lacks input validation, has 100% trust on api user
+- any unrecognised/unsupported input will explode it, this includes entering "economy" for a seat instead of "Economy"
+- uses an in memory ``var`` as data storage as discussed, so functions naturally have side effects
